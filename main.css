@@ -1,0 +1,43 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    display: flex;
+    padding: 1.5em;
+    background: #252424e7;
+}
+
+body{
+    background: url(./CartaPapaNoel/img/red-g223433d71_1920.png) center center no-repeat fixed;
+
+}
+nav{
+    margin: auto;
+}
+
+nav a{
+    padding: 1.3em;
+}
+
+a.Enlaces{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover.Enlaces{
+    color: rgb(204, 24, 24);
+}
+
+.Inicio{
+    color: white;
+    margin-top: 8em;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 3em;
+    
+}

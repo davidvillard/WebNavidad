@@ -1,0 +1,66 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../CartaPapaNoel/img/red-g223433d71_1920.png) center center no-repeat fixed;
+}
+
+h1 {
+    color: greenyellow;
+    font-family: 'fuente';
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url(fonts/Navidad.otf);
+    font-weight: 800;
+    font: 900;
+}
+
+.imagen{
+    margin-left: 10em;
+}
+.imagen:hover {
+
+    transition: all .5s ease-in-out;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    overflow: hidden;
+}
+
+.enviar{
+    margin-left: 7em;
+}
+
+header{
+    color: aliceblue;
+    display: flex;
+    background: #252424e7;
+    padding: 1.5em;
+}
+
+
+nav{
+    margin: auto;
+}
+
+nav a{
+    padding: 1.3em;
+}
+
+a.Enlaces{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover.Enlaces{
+    color: rgb(204, 24, 24);
+}
+
+.container{
+    margin-left: 17em;
+    margin-top: 2em;
+}

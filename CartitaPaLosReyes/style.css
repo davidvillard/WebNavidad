@@ -1,0 +1,72 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    
+    color: aliceblue;
+}
+header{
+    
+    display: flex;
+    background: #252424e7;
+    padding: 1.5em;
+}
+
+body{
+    background: url(../CartaPapaNoel/img/red-g223433d71_1920.png) center center no-repeat fixed;
+}
+nav{
+    color: aliceblue;
+    margin: auto;
+}
+
+nav a{
+    padding: 1.3em;
+}
+
+a.Enlaces{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover.Enlaces{
+    color: rgb(204, 24, 24);
+}
+
+.Inicio{
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 3%;
+}
+table{
+    border: 2px solid black;
+    background-color: rgba(8, 199, 206, 0.822);
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+td{
+    text-align: center;
+    border-top: 2px solid black;
+}
+th{
+    border-top: 2px solid black;
+}
+.final{
+    padding: 20px;
+    font-size: large;
+    border: 4px dotted rgb(122, 0, 0);
+    background-color:rgba(248, 104, 104, 0.493) ;
+    margin: auto;
+    width: 80%;
+}

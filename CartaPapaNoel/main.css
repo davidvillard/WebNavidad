@@ -1,0 +1,119 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Christmas';
+    src: url(./fonts/MerryChristmasFlake.ttf);
+}
+
+@font-face {
+    font-family: 'Christmas2';
+    src: url(./fonts/MerryChristmasStar.ttf);
+}
+
+body {
+    background: url(./img/red-g223433d71_1920.png) center center no-repeat fixed;
+}
+
+/*HEADER*/
+
+header{
+    color: aliceblue;
+    display: flex;
+    background: #252424e7;
+    padding: 1.5em;
+}
+
+body{
+    background-image: url(./img/red-g223433d71_1920.png);
+}
+nav{
+    margin: auto;
+}
+
+nav a{
+    padding: 1.3em;
+}
+
+a.Enlaces{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover.Enlaces{
+    color: rgb(204, 24, 24);
+}
+
+/*CONTAINER CARTA*/
+
+.introduction-title {
+    margin-top: 3.5em;
+    letter-spacing: .1em;
+    font-size: 3em;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4em;
+}
+
+.title-carta {
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    font-family:'Christmas';
+}
+
+.title-carta::after {
+    content: "";
+    display: block;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 5px;
+    height: 4px;
+    clip-path: var(--clippy);
+    transition: clip-path 1.3s;
+}
+
+.title-carta:hover {
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.container-carta .information-carta {
+    justify-content: flex-start;
+    margin-left: 2.5em;
+    background-color: white;
+    margin-top: 1.7em;
+    width: 41.5em;
+    height: 24.5em;
+    border: 2px solid #d1aa29e1;
+    border-radius: 6px;
+    transition: border-color .5s ease;
+}
+
+.information-carta p {
+    padding: 1em;
+    font-size: 1em;
+    margin-bottom: -1.3em;  
+}
+
+.container-carta img{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    margin-left: 34em;
+}
+
+.lista-items{
+margin-left: 3em;
+margin-top: 1.5em;
+}
+
+.information-carta:hover{
+    border-color: blueviolet;
+}
+
+footer{
+    margin-top: 6em;
+    margin-left: 2em;
+}
